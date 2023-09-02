@@ -1,9 +1,10 @@
 # include "binary_trees.h"
 
 /**
- * binary_tree_inorder - performs in-order traversal of a binary tree
- * @tree: pointer to the root node of the tree to traverse
- * @func: pointer to a function to be called on each node's value
+ * binary_tree_is_full - Checks if a binary tree is a full binary tree.
+ * @tree: A pointer to the root node of the binary tree.
+ *
+ * Return: 1 if the tree is full, 0 otherwise.
  */
 int binary_tree_is_full(const binary_tree_t *tree)
 {
